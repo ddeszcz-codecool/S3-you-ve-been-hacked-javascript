@@ -4,12 +4,16 @@ console.dir(numberInput);
 numberInput.placeholder="possible number";
 
 // restore the html element in the variable "calculateHighestSalaries" to have the button text
-// "Calculate highest salary"
+// "Calculate the highest salary"
 console.dir(calculateHighestSalaries);
+calculateHighestSalaries.children[1].children[0].innerText = 'Calculate highest salary';
 
 // change the salaries which have the value "-999999" to "12823" by accessing the html element
 // in the variable "salaryList"
 console.dir(salaryList);
+salaryList.children[2].children[1].innerText = '12823';
+salaryList.children[5].children[1].innerText = '12823';
+salaryList.children[9].children[1].innerText = '12823';
 
 // restore the html element in the variable "employeeList" to have the button with the text
 // "Find all matching inputs" and "btn-primary" bootstrap design.
