@@ -18,6 +18,11 @@ salaryList.children[9].children[1].innerText = '12823';
 // restore the html element in the variable "employeeList" to have the button with the text
 // "Find all matching inputs" and "btn-primary" bootstrap design.
 console.dir(employeeList);
+employeeList.children[2].children[0].innerText = 'Find all matching inputs';
+employeeList.children[2].children[0].style.backgroundColor = "blue";
+employeeList.children[2].children[0].style.cssText = "background: red; color: white;"; //added just to experiment with various properties setting
+employeeList.children[2].children[0].style = "background: green; color: white;"; //added just to experiment with various options
+
 
 // restore the html element in the variable "employeeList" to contain employee names from
 // originalEmployeeData.
