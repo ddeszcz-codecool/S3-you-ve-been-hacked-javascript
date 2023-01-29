@@ -65,3 +65,26 @@ function sumSalaries() {
 
   document.ElementById("number-sum").innerText = sum;
 }
+
+
+salariesInput.innerHTML = `<div class="p-3">
+<input type="number" id="number-1" placeholder="salary 1" class="form-control" value="0">
+</div>
+<div class="p-3">
+<input type="number" id="number-2" placeholder="salary 2" class="form-control" value="0">
+</div>
+<div class="p-3">
+<input type="number" id="number-3" placeholder="salary 3" class="form-control" value="0">
+</div>
+<div class="p-3">
+<input type="number" id="number-4" placeholder="salary 4" class="form-control" value="0">
+</div>
+<div class="p-3">
+<input type="number" id="number-5" placeholder="salary 5" class="form-control" value="0">
+</div>
+<div class="p-3">
+<button id="compute-number-sum" class="btn btn-primary" onclick="sumSalaries()">
+    Sum salaries
+</button>
+</div>
+<div class="p-3" id="number-sum"></div>`
