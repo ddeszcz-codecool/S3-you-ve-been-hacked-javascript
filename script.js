@@ -40,6 +40,15 @@ let originalEmployeeData = [
   "David Mcdonald",
 ];
 
+
+let employeeNumber = 0;
+let employees = employeeList.children[0].children;
+
+for (const employee of employees) {
+  employee.innerHTML = originalEmployeeData[employeeNumber];
+  employeeNumber++;
+}
+
 // restore the html element in the variable "salariesInput" to have the original html code
 // contained in the div with the id "employeeList" from "index.html".
 // After restoring the button with the text "Sum salaries" restore it's click functionality
